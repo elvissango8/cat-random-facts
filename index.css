@@ -1,0 +1,107 @@
+
+body{
+    height:100%;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFCCFB;
+}
+.card{
+    background-color:#D9C0F1;
+    padding:8px;
+    width: 40vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    
+    text-align: center;
+    height:90%;
+    text-overflow: ellipsis;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.factcont{
+ 
+    width: 100%;
+    margin-top: 20px;
+    height:60px;
+}
+button{
+    color:white;
+    padding: 8px;
+    font-size: 20px;
+    background-color: rgb(0, 20, 24);
+    width : 250px;
+    border-radius: 20px;
+    
+    border: none;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(1, 37, 44);
+
+}
+
+
+button:active{
+    width : 245px;
+    font-size: 18px;
+}
+
+.buttoncont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    width: 100%;
+    margin-top: 20px;
+    height:50px;
+    overflow: hidden;
+}
+
+span{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+h1{
+    color: rgb(0, 20, 24);
+    ;
+}
+
+.imagecont{
+    height: 250px;
+    width:300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
+    border-radius: 20px;
+
+}
+
+h4{
+    position: absolute;
+    bottom:20px;
+    right:8px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.image{
+    border: none;
+    border-radius: 20px;
+    height :100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.screen{
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
